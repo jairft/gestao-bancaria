@@ -3,7 +3,7 @@ markdown
 Copy code
 # Sistema Bancário [Gestao Bancaria]
 
-O Sistema Bancário Gestao Bancaria é uma plataforma de serviços financeiros seguros e eficientes que oferece uma ampla gama de recursos bancários. Este sistema é desenvolvido usando [Lista de Tecnologias Utilizadas] e segue as melhores práticas de segurança para proteger os dados dos clientes.
+O Sistema Bancário Gestao Bancaria é uma plataforma de serviços financeiros que oferece uma ampla gama de recursos bancários. Este sistema é desenvolvido usando Java, Spring, Apache Kafka, docker, etc.
 
 ## Recursos Principais
 
