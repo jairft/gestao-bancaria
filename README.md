@@ -11,7 +11,6 @@ O Sistema Bancário Gestao Bancaria é uma plataforma de serviços financeiros s
 - Contas de clientes com informações detalhadas.
 - Transferências e pagamentos seguros.
 - Controle de saldo em tempo real.
-- Segurança e conformidade com regulamentações financeiras.
 
 ## Começando
 
