@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  kafka:
+    producer:
+      topic-deposito: gestao-cliente-deposito-topic
+      topic-saque: gestao-cliente-saque-topic
+      topic-transf: gestao-cliente-transferencia-topic
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+microsvc:
+    gestao:
+        cliente-deposito: http://localhost:8080/contas/deposito/{agencia}/{numero}/{digito}
+        cliente-saque: http://localhost:8080/contas/saque/{agencia}/{numero}/{digito}/{valor}
+        cliente-transf: http://localhost:8080/contas/transferencia
