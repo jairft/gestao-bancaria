@@ -29,4 +29,4 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 1. Clone o repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/[nome-do-repo].git
+   git clone https://github.com/jairft/gestao-bancaria
